@@ -25,7 +25,7 @@ void Customer::displayInfo() const
     cout << "Customer's id: " << getUserID() << endl;
     cout << "Customer's phone number: " << getPhoneNumber() << endl;
     cout << "delivery address: " << getdeliveryAddress() << endl;
-    cout << "Loyalty points: " << getloyaltyPoints() << endl;
+    cout << "Loyalty points: " << getloyaltyPoints() << "\n";
 }
 double Customer::calculateEarnings() const
 {
