@@ -56,7 +56,7 @@ Order::Order(const Order &obj)
 Order::~Order()
 {
     delete[] items; // free memory
-    items = nullptr;
+    items = NULL;
 }
 
 // function that takes a FoodItem object reference as an arguements, adds a new item to items array and
